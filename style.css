@@ -71,3 +71,32 @@ body {
   .chat-header #close-chatbot:hover{
     background: #3d39ac;
   }
+
+  .chat-body{
+    padding: 25px 22px;
+    display: flex;
+    gap: 20px;
+    height: 460px;
+    margin-bottom: 82px;
+    flex-direction: column;
+  }
+
+  .chat-body .message{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+  }
+
+  .chat-body .bot-message .bot-avatar{
+    height: 35px;
+    width: 35px;
+    padding: 6px;
+    fill: #fff;
+    flex-shrink: 0;
+    background: #5350c4;
+    border-radius: 50%;
+  }
+
+  .chat-footer{
+    position: absolute;
+  }
