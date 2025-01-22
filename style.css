@@ -233,4 +233,15 @@ body.show-chatbot #chatbot-toggler{
 
   .chat-footer{
     position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    padding: 15px 22px 20px;
+  }
+
+  .chat-footer .chat-form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    outline: 1px;
   }
